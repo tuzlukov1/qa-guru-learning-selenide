@@ -21,7 +21,6 @@ public class GithubTests extends TestBase{
                 .checkSoftAssertionsOnSidebar()
                 .clickSoftAssertionsOnSidebar();
 
-
         softAssertionsPage
                 .checkJunit5CodeExample();
     }
