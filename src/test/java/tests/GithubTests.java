@@ -1,9 +1,9 @@
 package tests;
 
 import org.junit.jupiter.api.Test;
-import pages.components.SelenidePage.GithubSelenidePage;
-import pages.components.SelenidePage.SoftAssertionsPage;
-import pages.components.SelenidePage.WikiPage;
+import pages.GithubSelenidePage;
+import pages.SoftAssertionsPage;
+import pages.WikiPage;
 
 public class GithubTests extends TestBase{
     GithubSelenidePage githubSelenidePage = new GithubSelenidePage();
